@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport", content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		
+        <title><%= title %></title>
+		<%-  include('partials/head.html')  %>
+	</head>
+    <body>
+
+		<%-  include('partials/navigation.html')  %>
+		
+		<div class="container">
+			<header class="row">
+				<div class="col-lg-12 text-center">
+					<img src="/img/pews-logo.png" class="animate__animated animate__bounceIn" alt="Pews Logo">
+					</img>
+				</div>
+			</header>
+		</div>
+		
+		<!-- SECTION ONE -->
+		<div class="container-fluid" id="about">
+			<div class="row bg-dark text-white p-5 text-center">
+				<div class="col-sm-6">
+					<i class="fab fa-youtube fa-10x"></i>
+				</div>
+				<div class="col-sm-6">
+					<h3>The most suscribed Youtube Channel</h3>
+					<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dignissimos velit ut officia consectetur mollitia eveniet? Quidem voluptates nisi iusto ipsam in blanditiis reprehenderit, aut pariatur nostrum similique ea dolor.</P>
+				</div>
+			</div>
+		</div>
+		
+		
+		<%- include ('partials/footer.html') -%>
+    </body>
+</html>
+
