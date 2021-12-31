@@ -50,16 +50,16 @@ Escalado :hoover{
 
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 375px) {
 	body{
-		padding-top: 100px;
+		padding-top: 92px;
 	}
 	
 }
 
 @media only screen and (min-width : 410px) and (max-width : 1200px) {
 	body{
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 	
 }
