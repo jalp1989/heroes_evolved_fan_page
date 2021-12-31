@@ -1,7 +1,65 @@
 
 body{
-	background: #005C97;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background: white;  /* fallback for old browsers */
+	/*background-color: rgb(247, 247, 247)*/
+	background-color: #f8f9fa;
+	/*background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	
+	/*background: white;*/
+}
+OpcionesNavegacion{
+	font-family: 'Source Serif Pro', serif;
+}
+BarraNavegacionFondo{
+	background: #D3CCE3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*nav{
+	border-bottom: 1px solid grey
+}*/
+Escalado :hoover{
+	transform: scale(2,0.5);
+	cursor: pointer;
+}
+.map-responsive{
 
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+@media only screen and (max-width: 410px) {
+	body{
+		padding-top: 100px;
+	}
+	
+}
+
+@media only screen and (min-width : 410px) and (max-width : 1200px) {
+	body{
+		padding-top: 60px;
+	}
+	
 }

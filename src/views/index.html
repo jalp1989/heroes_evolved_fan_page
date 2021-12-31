@@ -11,30 +11,289 @@
     <body>
 
 		<%-  include('partials/navigation.html')  %>
-		
-		<div class="container">
-			<header class="row">
-				<div class="col-lg-12 text-center">
-					<img src="/img/pews-logo.png" class="animate__animated animate__bounceIn" alt="Pews Logo">
-					</img>
+
+		<div id="carouselExampleDark1" class="carousel carousel-light slide col-lg-12 text-center mt-5" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active" data-bs-interval="10000">
+				<img src="/img/Celulas_Antiguas_01.jpg" class="d-block w-100 animate__animated animate__zoomIn" alt="...">
+				<div class="carousel-caption d-md-block">
+				  <h5 style="color: white; font-family: 'Open Sans', sans-serif;">Automatizacion Industrial y Servicios</h5>
+				  <p style="color: white;"></p>
 				</div>
-			</header>
-		</div>
-		
+			  </div>
+			  <div class="carousel-item" data-bs-interval="2000">
+				<img src="/img/Diseño_Electrico_03.jpg" class="d-block w-100"  alt="...">
+				<div class="carousel-caption d-md-block">
+				  <h4 style="color: white; font-family: 'Open Sans', sans-serif;">Electricidad</h4>
+				  <p style="color: white;"> </p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/img/Diseño_Mecanico_01.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-md-block">
+				  <h4 style="color: white; font-family: 'Open Sans', sans-serif;">Mecanica</h4>
+				  <p style="color: white;"></p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/img/Diseño_Software_02.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-md-block">
+				  <h4 style="color: white; font-family: 'Open Sans', sans-serif;">Software</h4>
+				  <p style="color: white;"></p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/img/Robots_Industriales_01.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-md-block">
+				  <h4 style="color: white; font-family: 'Open Sans', sans-serif;">Robotica</h4>
+				  <p style="color: white;"></p>
+				</div>
+			  </div>					  
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+
+	
+
 		<!-- SECTION ONE -->
 		<div class="container-fluid" id="about">
-			<div class="row bg-dark text-white p-5 text-center">
-				<div class="col-sm-6">
-					<i class="fab fa-youtube fa-10x"></i>
+			<div class="row bg-dark text-white p-5 ">
+				<div class="col-lg-6">
+					<img class="img-fluid" src="/img/Grupo_Trabajo_01.jpg" alt="">
 				</div>
-				<div class="col-sm-6">
-					<h3>The most suscribed Youtube Channel</h3>
-					<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dignissimos velit ut officia consectetur mollitia eveniet? Quidem voluptates nisi iusto ipsam in blanditiis reprehenderit, aut pariatur nostrum similique ea dolor.</P>
+				<div class="col-lg-5 offset-lg-1 ">
+					<h2 style=" font-family: 'Open Sans', sans-serif; font-weight:bolder;"><br> Nuestra Historia</h2>
+					<P><br> Caime es una empresa que se sitúa en el sector de la automatización industrial y que cuenta con una dilatada experiencia en este campo, habiendo realizado numerosas instalaciones en diferentes tipos de clientes tales como Industria del Automóvil y sus auxiliares, línea blanca, cerámicas, paquetería, etc.
+
+						Contamos con un grupo de profesionales en continuo proceso de formación, que aportan todo su esfuerzo, seriedad y dedicación en la ejecución de todos nuestros proyectos, siguiendo las mejores pautas de calidad y buscando la satisfacción completa del cliente.
+						
+						Ponemos a su disposición los últimos avances tecnológicos en control automático, ingeniería y montajes electromecánicos industriales, así como en informática industrial y fabricación de cuadros de control y potencia.   Proponemos soluciones integrales a todo tipo de procesos industriales.</P>
 				</div>
 			</div>
 		</div>
 		
+		<!-- SECTION TWO -->
+		<div class="container-fluid" id="experience">
+			<div class="row bg-gray p-5">
+				<div class="col-sm-12">
+					<h2 style=" font-family: 'Open Sans', sans-serif; font-weight:bolder;">Nuestra Experiencia</h2>
+					<div class="list-group list-group-flush mt-5">
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"> <br>Diseño Electrico de Armarios <br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Diseño Mecanico de Automatismos<br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Diseño del Software de Control por PLC y HMI<br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Programacion de Robots<br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Servicios de Mantenimiento<br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Servicios de Puesta en Marcha y Soporte<br></h4></a>
+						<a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true"><h4 style=" font-family: 'Open Sans', sans-serif; font-weight:lighter;"><br>Diseño Web<br></h4></a>
+					  </div>
+				</div>
+			</div>
+		</div>
 		
+		<!-- SECTION THREE -->
+		<div class="container-fluid" id="clients">
+			<div class="row bg-dark text-white p-5">
+					<h2 style=" font-family: 'Open Sans', sans-serif; font-weight:bolder;">Clientes</h2>
+					<div class="col-lg-2 offset-lg-2 mt-5">
+						<img class="img-fluid"  src="/img/JD_logo_001.JFIF" alt="">
+					</div>
+					<div class="col-lg-2  mt-5">
+						<img class="img-fluid"  src="/img/Valeo_logo_003.png" alt="">
+					</div>
+					<div class="col-lg-2 mt-5">
+						<img class="img-fluid"  src="/img/JD_logo_001.JFIF" alt="">
+					</div>
+					<div class="col-lg-2 mt-5">
+						<img class="img-fluid"  src="/img/JD_logo_001.JFIF" alt="">
+					</div>
+					<div class="col-lg-2 mt-5 ">
+						<img class="img-fluid"  src="" alt="">
+					</div>
+					<div class="col-lg-2 offset-lg-3 mt-5 ">
+						<img class="img-fluid"  src="/img/JD_logo_001.JFIF" alt="">
+					</div>
+			</div>
+		</div>
+
+		<!-- SECTION FOUR -->
+		<div class="container-fluid" id="projects">
+			<div class="row bg-light  p-5">
+				<div class="col-sm-12">
+					<h2 style=" font-family: 'Open Sans', sans-serif; font-weight:bolder;">Proyectos</h2> 
+
+							<div class="col-lg-12  mt-5 text-center">
+							  <a class="btn btn-light" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+								<i class="fa fa-arrow-left"></i>
+							  </a>
+							  <a class="btn btn-light" href="#carouselExampleIndicators2" role="button" data-slide="next">
+								<i class="fa fa-arrow-right"></i>
+							  </a>
+							</div>
+							<div class="col-lg-12 mt-2">
+							  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+					  
+								<div class="carousel-inner">
+								  <div class="carousel-item active">
+									<div class="row">
+					  
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+					  
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+										</div>
+									  </div>
+					  
+									</div>
+								  </div>
+								  <div class="carousel-item">
+									<div class="row">
+					  
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+					  
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+										</div>
+									  </div>
+					  
+									</div>
+								  </div>
+								  <div class="carousel-item">
+									<div class="row">
+					  
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+					  
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					  
+										  </div>
+										</div>
+									  </div>
+									  <div class="col-md-4 mb-3">
+										<div class="card">
+										  <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+										  <div class="card-body">
+											<h4 class="card-title">Special title treatment</h4>
+											<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  
+						
+					  
+				</div>
+			</div>
+		</div>
+
+		<!-- SECTION FIVE -->
+		<div class="container-fluid" id="contact">
+			<div class="row bg-dark text-white p-5 ">
+				
+				<div class="col-lg-5 mt-5">
+					<h2 style=" font-family: 'Open Sans', sans-serif; font-weight:bolder;">Contacto</h2>
+						<p class=><br> Informacion general: informacion.general@caime.es</p>
+						<p class=>Ventas: ventas@caime.es</p>
+						<p class=>Soporte al cliente: servicio.tecnico@caime.es</p>
+						<p class=>Responsable de calidad: calidad@caime.es</p>	
+						<p class=>Administrador Web: administrador@caime.es</p>
+						
+						<p class=>Telefono: +34 91 692 59 27</p>
+						<p class=>Fax: +34 91 691 63 74</p>
+						<p class=>Direccion: 
+							Paseo de Arroyomolinos, 51
+							28938 Mostoles (Madrid)</p>
+
+						
+						<p class=>Nuestro horario de atención al clientes es de 8:00 a 19:00 h.</p>
+				</div>
+				<div class="col-lg-6 mt-5 offset-lg-1">
+					<div class="map-responsive">>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2120.4122060501213!2d-3.8744397289184342!3d40.31276693957308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418dcf06a5372b%3A0xd909a8b14dfd9bb7!2sP.%C2%BA%20de%20Arroyomolinos%2C%2051%2C%2028938%20M%C3%B3stoles%2C%20Madrid!5e0!3m2!1ses!2ses!4v1640437614752!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>	
 		<%- include ('partials/footer.html') -%>
     </body>
 </html>
